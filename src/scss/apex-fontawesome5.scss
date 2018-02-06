@@ -1,0 +1,44 @@
+.apex-icons-fontawesome {
+	.fa {
+		font-family: 'Font Awesome 5 Pro';
+
+		&:before {
+			font-family: inherit;
+			vertical-align: baseline;
+		}
+	}
+
+	.fab {
+		font-family: 'Font Awesome 5 Brands';
+	}
+
+	.fal {
+		font-weight: 300;
+	}
+
+	.far {
+		font-weight: 400;
+	}
+	
+	.fas {
+		font-weight: 900;
+	}
+	
+	.t-Button.t-Button--header .t-Icon {
+	  font-size: 1.4rem; 
+	}
+}
+
+.apex-button-group input+label .t-Icon,
+.t-Button .t-Icon,
+.t-Form-fieldContainer--radioButtonGroup .apex-item-radio input+label .t-Icon {
+	vertical-align: middle;
+}
+
+.t-TreeNav .a-TreeView-node--topLevel > .a-TreeView-content .svg-inline--fa {
+	width: 40px;
+}
+
+.js-navCollapsed .t-TreeNav .a-TreeView-node--topLevel > .a-TreeView-content .svg-inline--fa {
+	width: 48px;
+}

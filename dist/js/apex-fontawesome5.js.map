@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["apex-fontawesome5.js"],"sourcesContent":["var FontAwesomeConfig = { autoReplaceSvg: 'nest' };\n\n(function(){\n\t$(\"body\").addClass(\"apex-icons-fontawesome\");\n})();"],"file":"apex-fontawesome5.js"}
