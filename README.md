@@ -11,9 +11,9 @@ I can't redistribute Font Awesome 5 Pro here, so you will have to download the f
 ## Download Steps
 1. Get a license for Font Awesome 5 Pro: https://fontawesome.com/pro
 3. Download these APEX [compatibility files from Github](https://github.com/vincentmorneau/apex-fontawesome5/tree/master/dist)
-3. Unzip Font Awesome 5 into `/dist/lib/fontawesome5`
+3. Unzip Font Awesome 5 Pro (from step 1) into `/dist/lib/fontawesome5` (from step 2)
 4. Zip the whole `dist` folder
-5. Upload it to your APEX web server
+5. Upload the zip to your APEX web server
 	- Example: Shared Components - Application Static Files: `#APP_IMAGES#`
 
 *Note: We have to do this because I can't distribute Font Awesome 5 Pro...*
