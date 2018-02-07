@@ -1,0 +1,16 @@
+# Folders
+node_modules
+
+# Examples
+src/lib/fontawesome5/svg-with-js
+src/lib/fontawesome5/web-fonts-with-css
+dist/lib/fontawesome5/svg-with-js
+dist/lib/fontawesome5/web-fonts-with-css
+
+# Mac
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*

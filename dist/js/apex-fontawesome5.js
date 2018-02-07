@@ -1,6 +1,7 @@
 var FontAwesomeConfig = { autoReplaceSvg: 'nest' };
 
 (function(){
-	$("body").addClass("apex-icons-fontawesome");
+	// using far (regular) as the default style
+	$('[class^="fa-"], [class*=" fa-"]').not(".fas, .far, .fal, .fab").addClass("far");
 })();
 //# sourceMappingURL=apex-fontawesome5.js.map
