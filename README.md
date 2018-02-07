@@ -1,8 +1,8 @@
 # Using Font Awesome 5 Pro in APEX
 
 Blog: https://vmorneau.me/fontawesome5/  
-Demo 1 (Usage in APEX): https://apex.oracle.com/pls/apex/f?p=114996  
-Demo 2 (Universal Theme Sample): https://apex.oracle.com/pls/apex/f?p=114996  
+Demo 1 (Usage in APEX): https://apex.oracle.com/pls/apex/f?p=1397  
+Demo 2 (Universal Theme Sample): https://apex.oracle.com/pls/apex/f?p=22375  
 
 **The following steps are required because of the Font Awesome 5 Pro license.**
 
