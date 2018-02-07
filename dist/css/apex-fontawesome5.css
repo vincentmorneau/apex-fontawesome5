@@ -19,6 +19,45 @@
 .apex-icons-fontawesome .t-Button.t-Button--header .t-Icon {
   font-size: 1.4rem; }
 
+.apex-icons-fontawesome .fa-lg {
+  font-size: 1.33333em; }
+
+.apex-icons-fontawesome .fa-xs {
+  font-size: 0.75em; }
+
+.apex-icons-fontawesome .fa-sm {
+  font-size: 0.875em; }
+
+.apex-icons-fontawesome .fa-1x {
+  font-size: 1em; }
+
+.apex-icons-fontawesome .fa-2x {
+  font-size: 2em; }
+
+.apex-icons-fontawesome .fa-3x {
+  font-size: 3em; }
+
+.apex-icons-fontawesome .fa-4x {
+  font-size: 4em; }
+
+.apex-icons-fontawesome .fa-5x {
+  font-size: 5em; }
+
+.apex-icons-fontawesome .fa-6x {
+  font-size: 6em; }
+
+.apex-icons-fontawesome .fa-7x {
+  font-size: 7em; }
+
+.apex-icons-fontawesome .fa-8x {
+  font-size: 8em; }
+
+.apex-icons-fontawesome .fa-9x {
+  font-size: 9em; }
+
+.apex-icons-fontawesome .fa-10x {
+  font-size: 10em; }
+
 .apex-button-group input + label .t-Icon,
 .t-Button .t-Icon,
 .t-Form-fieldContainer--radioButtonGroup .apex-item-radio input + label .t-Icon {

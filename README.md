@@ -1,22 +1,24 @@
 # Using Font Awesome 5 Pro in APEX
 
 Blog: https://vmorneau.me/fontawesome5/  
-Demo 1 (Custom): https://apex.oracle.com/pls/apex/f?p=114996  
-Demo 2 (UT Demo): https://apex.oracle.com/pls/apex/f?p=114996  
+Demo 1 (Usage in APEX): https://apex.oracle.com/pls/apex/f?p=114996  
+Demo 2 (Universal Theme Sample): https://apex.oracle.com/pls/apex/f?p=114996  
 
 **The following steps are required because of the Font Awesome 5 Pro license.**
 
 I can't redistribute Font Awesome 5 Pro here, so you will have to download the files yourself and follow these steps:
 
-### Download Steps
+## Download Steps
 1. Get a license for Font Awesome 5 Pro: https://fontawesome.com/pro
-3. Download APEX Font Awesome 5 compatibility files: https://github.com/vincentmorneau/apex-fontawesome5/tree/master/dist
+3. Download these APEX [compatibility files from Github](https://github.com/vincentmorneau/apex-fontawesome5/tree/master/dist)
 3. Unzip Font Awesome 5 into `/dist/lib/fontawesome5`
 4. Zip the whole `dist` folder
 5. Upload it to your APEX web server
 	- Example: Shared Components - Application Static Files: `#APP_IMAGES#`
 
-### Option 1) SVG with JavaScript
+*Note: We have to do this because I can't distribute Font Awesome 5 Pro...*
+
+## Option 1) SVG with JavaScript
 1. Reference these JavaScript files in your app
 	- `#APP_IMAGES#js/apex-fontawesome5#MIN#.js`
 	- `#APP_IMAGES#lib/fontawesome5/svg-with-js/js/fontawesome-all#MIN#.js`
@@ -30,7 +32,7 @@ I can't redistribute Font Awesome 5 Pro here, so you will have to download the f
 
 ![](/doc/broken-icons.png)
 
-### Option 2) Web Fonts with CSS
+## Option 2) Web Fonts with CSS
 1. Reference this JavaScript file in your app
 	- `#APP_IMAGES#js/apex-fontawesome5#MIN#.js`
 2. Reference these CSS files in your app
@@ -39,15 +41,15 @@ I can't redistribute Font Awesome 5 Pro here, so you will have to download the f
 	
 ![](/doc/file-references-css.png)
 
-### Usage
+## Usage
 
-##### Basic Usage
+### Basic Usage
 Pick your icon here https://fontawesome.com/icons.  
 Use it in the appropriate icon CSS classes in APEX.
 
 ![](/doc/icon-css-classes-basic.png)
 
-##### Styles & Prefixes
+### Styles & Prefixes
 Style | Class
 --- | ---
 Solid | `fas`
@@ -57,7 +59,7 @@ Brand | `fab`
 
 ![](/doc/icon-css-classes-style.png)
 
-##### Icon Sizes
+### Icon Sizes
 Size | Class
 --- | ---
 0.75em | `fa-xs`
@@ -67,7 +69,7 @@ Size | Class
 
 ![](/doc/icon-css-classes-size.png)
 
-##### Animated
+### Animated
 Animation | Class
 --- | ---
 Spin | `fa-spin`
